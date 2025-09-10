@@ -1,4 +1,4 @@
-package com.bitpay.cordova.qrscanner;
+package com.rhinosw.cordova.qrscanner;
 
 import android.Manifest;
 import android.content.Intent;
