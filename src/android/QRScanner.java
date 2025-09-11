@@ -1,4 +1,4 @@
-package com.bitpay.cordova.qrscanner;
+package com.rhinosw.cordova.qrscanner;
 
 import android.Manifest;
 import android.content.Intent;
@@ -456,9 +456,21 @@ public class QRScanner extends CordovaPlugin implements BarcodeCallback {
                 //Configure the decoder
                 ArrayList<BarcodeFormat> formatList = new ArrayList<BarcodeFormat>();
                 formatList.add(BarcodeFormat.QR_CODE);
+                formatList.add(BarcodeFormat.AZTEC);
+                formatList.add(BarcodeFormat.DATA_MATRIX);
+                formatList.add(BarcodeFormat.CODABAR);
                 formatList.add(BarcodeFormat.CODE_39);
                 formatList.add(BarcodeFormat.CODE_93);
                 formatList.add(BarcodeFormat.CODE_128);
+                formatList.add(BarcodeFormat.EAN_8);
+                formatList.add(BarcodeFormat.EAN_13);
+                formatList.add(BarcodeFormat.ITF);
+                formatList.add(BarcodeFormat.RSS_14);
+                formatList.add(BarcodeFormat.RSS_EXPANDED);
+                formatList.add(BarcodeFormat.UPC_A);
+                formatList.add(BarcodeFormat.UPC_E);
+                formatList.add(BarcodeFormat.UPC_EAN_EXTENSION);
+
                 mBarcodeView.setDecoderFactory(new DefaultDecoderFactory(formatList, null, null, 0));
 
                 //Configure the camera (front/back)

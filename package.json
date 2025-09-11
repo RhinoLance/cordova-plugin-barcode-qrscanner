@@ -1,9 +1,9 @@
 {
   "name": "@rhinosw/cordova-plugin-barcode-qrscanner",
-  "version": "3.0.13",
+  "version": "3.0.14",
   "description": "Fast, energy-efficient, highly-configurable barcode and QR code scanner.",
   "cordova": {
-    "id": "cordova-plugin-barcode-qrscanner",
+    "id": "@rhinosw/cordova-plugin-barcode-qrscanner",
     "platforms": [
       "ios"
     ]
@@ -37,6 +37,11 @@
     "CODE_39",
     "CODE_93",
     "CODE_128",
+    "EAN_8",
+    "EAN_13",
+    "GS1DataBar",
+    "ITF",
+    "UPC",
     "qr",
     "qr code",
     "scanner",
