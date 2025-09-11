@@ -157,7 +157,7 @@ class QRScanner : CDVPlugin, AVCaptureMetadataOutputObjectsDelegate {
                     AVMetadataObject.ObjectType.qr, 
                     AVMetadataObject.ObjectType.aztec,
                     AVMetadataObject.ObjectType.dataMatrix,
-                    AVMetadataObject.ObjectType.codabar
+                    AVMetadataObject.ObjectType.codabar,
                     AVMetadataObject.ObjectType.code39, 
                     AVMetadataObject.ObjectType.code39Mod43, 
                     AVMetadataObject.ObjectType.code93, 
