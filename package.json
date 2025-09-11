@@ -55,12 +55,12 @@
     "electron",
     "NW.js"
   ],
-  "author": "Matej Musak",
+  "author": "Lance Conry",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jammin197/cordova-plugin-barcode-qrscanner"
+    "url": "https://github.com/RhinoLance/cordova-plugin-barcode-qrscanner"
   },
-  "homepage": "https://github.com/jammin197/cordova-plugin-barcode-qrscanner",
+  "homepage": "https://github.com/RhinoLance/cordova-plugin-barcode-qrscanner",
   "main": "dist/cordova-plugin-qrscanner-lib.min.js",
   "dependencies": {
     "qrcode-reader": "^1.0.4",
