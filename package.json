@@ -1,6 +1,6 @@
 {
   "name": "@rhinosw/cordova-plugin-barcode-qrscanner",
-  "version": "3.0.15",
+  "version": "3.0.16",
   "description": "Fast, energy-efficient, highly-configurable barcode and QR code scanner.",
   "cordova": {
     "id": "@rhinosw/cordova-plugin-barcode-qrscanner",
